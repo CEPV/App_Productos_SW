@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15sp"
+        android:text="SW LOCAL"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        />
+
+    <Button
+        android:id="@+id/btnInsertar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="INSERTAR"
+        android:layout_margin="15sp"
+        android:textSize="25sp"
+        android:onClick="Onclick"
+
+        />
+
+    <Button
+        android:id="@+id/btnBuscar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BUSCAR"
+        android:layout_margin="15sp"
+        android:textSize="25sp"
+        android:onClick="Onclick"
+
+        />
+    <Button
+        android:id="@+id/btnMostrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MOSTRAR"
+        android:layout_margin="15sp"
+        android:textSize="25sp"
+        android:onClick="Onclick"
+
+        />
+    <Button
+        android:id="@+id/btnEliminar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ELIMINAR"
+        android:layout_margin="15sp"
+        android:textSize="25sp"
+        android:onClick="Onclick"
+
+        />
+    <Button
+        android:id="@+id/btnActualizar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ACTUALIZAR"
+        android:layout_margin="15sp"
+        android:textSize="25sp"
+        android:onClick="Onclick"
+
+        />
+
+        }
+</LinearLayout>
